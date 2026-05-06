@@ -1,6 +1,10 @@
-# INT v.s. FP
+# INT vs. FP
 We demonstrate that MXINT8/NVINT4 quantization formats are more accurate than their FP counterparts form both theoretical and practical scenarios. More details can be found in our paper [INT v.s. FP: A Comprehensive Study of Fine-Grained Low-bit Quantization Formats](https://arxiv.org/pdf/2510.25602). 
 
+
+# News
+- [2026/05] 🌟 Our INT vs. FP paper has been accepted for ICML 2026 Conference! 🎉 Cheers!
+  
 # Introduction
 - Theoretical QSNR
 ![theoretical](./asserts/theoretical_qsnr.png)
