@@ -66,7 +66,7 @@ CUDA_VISIBLE_DEVICES=0 python3 cal_kl_ppl.py --model_path ./hf_models/Llama-3.2-
 
 
 # Evaluate QSNR
-We offer the scripts to evaluate the QSNR of quantized models across different low-bit formats. You can change `--model_path` to evaluate the KL divergence and perplexity of other models. You can also set `--rotate_dim 32` to introduce 32x32 random Hadamard rotation before quantization.
+We offer the scripts to evaluate the QSNR of quantized models across different low-bit formats. You can change `--model_path` to evaluate the QSNR of other models. You can also set `--rotate_dim 32` to introduce 32x32 random Hadamard rotation before quantization.
 - MXINT8
 ```
 CUDA_VISIBLE_DEVICES=0 python3 cal_qsnr.py \
